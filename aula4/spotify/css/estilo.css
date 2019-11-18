@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+body{
+    background-color: #000000;
+}
+header{
+    background-color: #000000;
+    height: 80px;
+}
+header img{
+    width: 132px;
+    margin: 20px 0px;
+}
+.parte1{
+    background-color: #19E68C;
+    height: 539.8px;
+    display: flex;
+    align-items: center;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+}
+.texto1{
+    text-align: center;
+}
+.texto1 h1{
+    color: #FEFFFF;
+    font-size: 64px;
+    font-family: arial;
+    margin: 28px 0px 16px;
+}
+.texto1 p{
+    color: #222326;
+    font-size: 18px;
+    font-family: arial;
+    margin: 18px;
+    line-height: 1.5;
+}
+.texto1 a{
+    color: #FEFFFF;
+}
+.texto1 a:hover{
+    color: #9DDDC3;
+}
+.imagem1{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+.parte2{
+    background-color: #F8F8F8;
+    height: 339px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2{
+    text-align: center;
+}
+.texto2 h3{
+    font-size: 34px;
+    font-family: arial;
+    margin: 10px 0px 16px;
+}
+.texto2 p{
+    font-size: 20px;
+    font-family: arial;
+    margin: 10px 0px 20px;
+}
+.parte3{
+    background-color: #222326;
+    height: 461.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem3 img{
+    width: 527px;
+}
+.section3{
+    text-align: center;
+}
+.texto3 h3{
+    font-size: 34px;
+    color: #FEFFFF;
+    margin: 12px 0px 8px;
+    font-family: arial;
+} 
+.lista li{
+    font-family: arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FEFFFF;
+    font-size: 16px;
+    margin: 4px 0px;
+    padding: 0px 5px;
+}
+.lista ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.lista a{
+    color: #1DB954;
+}
+.rodape{
+    display:flex;
+    justify-content: space-between;
+}
+.lista2{
+    width: 400px;
+}
+.lista2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.lista2 a{
+    text-decoration: none;
+    color: #919496;
+    font-size: 12px;
+    padding: 12px 12px 12px;
+    font-family: arial;
+}
+footer{
+    background-color: #000000;
+    height: 111.6px;
+}
+.menurodape{
+    display: flex;
+    align-items: flex-end;
+}
+.br{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+}
+.br p{
+    color:#919496;
+    font-family: arial;
+    font-size: 12px;
+}
+.br img{
+    width: 24px;
+    padding: 0px 0px 0px 10px;
+}
+.spotify p{
+    color:#919496;
+    font-family: arial;
+    font-size: 12px;
+    padding: 12px 0px;
+}

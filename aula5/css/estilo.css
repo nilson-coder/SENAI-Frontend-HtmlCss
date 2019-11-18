@@ -1,0 +1,159 @@
+/*Zerar margens automaticas do browser*/
+*{
+    margin: 0;
+    padding: opx;
+}
+/*Alinhamento*/
+.container{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+/*MENU*/
+header{
+    background-color: #FF0909;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    text-transform: uppercase;
+}
+.menu a:hover, .ativo{
+    color: #dddddd;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 3px;
+    /*transition: 1s; fazer a transição do hover*/
+}
+nav{
+    width: 1366px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*FIM MENU*/
+/*BANNER*/
+.banner{
+    width: 1366px;
+    margin: auto;
+    position: relative;
+}
+.texto_banner{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+}
+.texto_banner .t1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+.texto_banner .t2{
+    font-family: arial;
+    font-size: 30px;
+}
+.texto_banner p{
+    margin-bottom: 20px;
+    font-family: arial;
+}
+.btn{
+    font-family: Arial;
+    background-color: #FF0909;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: white;
+    color:#FF0909;
+    border: 2px solid #FF0909;
+}
+/*FIM BANNER*/
+/*PRODUTOS*/
+.card{
+    width: 350px;
+    font-family: arial;
+    line-height: 2.0;
+    margin-top:60px;
+}
+.card p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*FIM PRODUTOS*/
+/*RODAPÉ*/
+footer{
+    background-color: #FF0909;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/*FIM RODAPÉ*/
+
+/*MEDIAS QUERIES*/
+/*TABLET*/
+@media (max-width:1169px){
+    nav{
+        width: 768px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner{
+        width: 768px;
+    }
+    .texto_banner .t1{
+        font-size: 25px;
+    }
+    .texto_banner .t2{
+        font-size: 15px;
+    }
+    .container{
+        width: 730px;
+    }
+}
+/*CELULAR - MOBILE*/
+@media (max-width:767px){
+    nav{
+        width: 368px;
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        width: 150px;
+        padding-top:15px;
+    }
+    .menu li{
+        padding-top: 10px;
+    }
+    .banner img{
+        display: none;
+    }
+    .banner{
+        width: 368px;
+    }
+    .texto_banner{
+        color: black;
+        position: static;
+        padding-top: 40px;
+    }
+    .container{
+        width:350px;
+    }
+}
